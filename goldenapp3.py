@@ -174,7 +174,7 @@ def goldenapp():
 
      
 
-    #Calculate sum of stability and new stability rank
+    #Calculate sum of stability (SS) and new stability rank (SR)
      for k in letter_function.keys():
              for j in k:          
                 SS = sum(value for key, value in chi2.items() if value >= chi2[k])
